@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+.lateral{
+	position: fixed;
+	top:0
+	bottom:0;
+	left: 0;
+	width: 350px;
+	background-color:lightgreen;
+	height: 100%;
+	padding: 1em;
+}
+
+/*perfil */
+.perfil__circulo{
+	width: 50px;
+	overflow: hidden;
+	height: 50px;
+	border-radius: 50%;
+	margin:0;
+}
+
+.perfil__foto{
+	width: 100%;
+}
+
+.perfil__nombres{
+	color: red;
+	font-size: 20px;
+	width: 250px;
+	margin-left: .5em;
+}
+
+.perfil__nombres,.perfil__circulo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*INFORMACION*/
+
+.informacion{
+	color:grey;
+	position: absolute;
+	bottom: 0;
+}
+
+.informacion__titulo{
+	font-size: 18px;
+}
+
+/*HABILIDADES*/
+.habilidades{
+	padding: 0;
+}
+.habilidad{
+	background-color: black;
+	color:silver;
+	font-size: 12px;
+	display: inline-block;
+	border-radius: 3px;
+	padding: .5em;
+	text-transform: uppercase;
+}
+
+/*PROYECTOS*/
+.proyectos{
+	padding: 1em;
+	margin-left: 350px;
+	display: table;
+}
+
+.proyecto{
+	display: table-cell;
+	width: 50%;
+	padding: 1em;
+}
+.proyecto__imagen{
+	width: 100%
+}
